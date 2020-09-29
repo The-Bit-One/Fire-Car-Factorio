@@ -5,7 +5,7 @@ script.on_event(defines.events.on_tick, function(event)
   if game.tick%30 == 0 then
     if game.player.vehicle and game.player.vehicle.valid and (game.player.vehicle.type == "car" or
       game.player.vehicle.type == "tank") then
-      player.surface.create_entity{name="fire-flame", position=player.position, force="neutral"} 
+      player.vehicle.surface.create_entity{name="fire-flame", position=player.position, force="neutral"} 
 
     end
   end
