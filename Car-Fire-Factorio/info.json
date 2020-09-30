@@ -1,0 +1,11 @@
+{
+    "name": "FireCar",
+    "version": "0.0.1",
+    "title": "Firey Car Trails",
+    "author": "TheBitOne",
+    "contact": "https://hdprojects.dev/contact",
+    "homepage": "https://github.com/The-Bit-One/Car-Fire-Factorio",
+    "factorio_version": "1.0",
+    "dependencies": [ "base >= 0.16" ],
+    "description": Makes cars leave a trail of fire, pretty cool right!"
+}
